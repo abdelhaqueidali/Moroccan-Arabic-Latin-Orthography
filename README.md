@@ -85,7 +85,18 @@ Foreign words, proper names, trademarks, and place names may retain their origin
 
 When a foreign word becomes fully lexicalized in Darija, a phonetic spelling remains acceptable.
 *  *baliza* (suit-case) from La valise. 
-*  *jafil* (bleach) feom Javil. 
+*  *jafil* (bleach) feom Javil.
+
+### 8. The hamza
+The hamza will be written using simply "e". where the two vowels meet, a circumflex accent will be on *ê* if it is directly after a consonant.
+*   *Aasmae* أسماء
+*   *Fuead* فؤاد
+*   *Mueassasa* مؤسسة
+*   *ietiman* ائتمان
+*   *Fadae*
+*   *Juzê*, *ajzae*
+
+At the start of words or after the definitive article *l*, it is usually normalized to a normal vowel. e.g., leinsan => linsan, einsan => insan. However, if to show the Hamza in the written text, the modifier letter apostrophe should be used: ʼinsan, lʼinsan. A normal apostrophe works fine in this case, however, it breaks words, like if you write a hashtag, or process texts with regex, the modifier lether apostrophe works better as it is considered a letter not a punctuation mark. 
 
 ---
 
