@@ -1,20 +1,30 @@
 # Moroccan-Arabic-Latin-Orthography
-An Amazigh-Inspired Latin Orthography for Moroccan Arabic
+A Latin Orthography for Moroccan Arabic, A better solution for Arabizi 
 
-A standardized Latin-script orthography for Moroccan Arabic (Darija), modeled after the regional Amazigh-Latin system. It will feature writing rules, annotated text examples, song lyrics, and mini-dictionary glossaries. This is just to showcase the usage of this orthography, which could benifit others who are looking for such solutions. Read the rules in thr following. Any uploaded files will be found in this repo in their dedicated folders. Any feedback is welcomed, this could be still improved but anyway, this aims at setting the main framework while it doesn't get into deeper grammatical elements or any spelling differences that may be present regarding applying this system (gelb vs. qelb), lexical standardization is another latter. 
+# A Latin Orthography for Moroccan Arabic (Darija)
+
+This repository presents a standardized Latin-script orthography for Moroccan Arabic (Darija), adapted directly from the established Amazigh-Latin system to resolve long-standing issues in conventional Darija writings. Rather than inventing new symbols or  reassigning new letters, this approach leverages an established alphabet already integrated into modern smartphone and desktop keyboards. By aligning with this system, Darija directly benefits from existing input methods, character sets, and computational infrastructure.
+
+To demonstrate its practical application, this project includes comprehensive writing rules, and there will be in the future annotated text examples, song lyrics, and mini-dictionary glossaries. It is designed as a practical reference for anyone seeking a structured Latin-script solution for Darija.
+
+## Scope & Intent
+* **Framework First:** This proposal establishes the core orthographic rules (graphemes, word boundaries, and clitics). It deliberately excludes advanced grammatical standardization or regional lexical variants (e.g., choosing between *gelb* vs. *qelb*). Lexical standardization remains a separate effort.
+* **Open for Improvement:** While functional and ready for use, this system remains open to feedback and refinement.
+
+---
 
 # ​A Latin Orthography for Moroccan Arabic (Amazigh Model)
 
 ## Introduction
 Writing Moroccan Arabic (referred to as Darija) in the Arabic script remains the default orthography, accounting for the majority of written usage. It relies on the well-established conventions of Standard Arabic and remains the preferred choice for long-form writing, journalism, and projects such as the Moroccan Arabic Wikipedia. Despite some inconsistencies, it remains a solid choice for writing Darija. 
 
-Latin-based writing, by contrast, is overwhelmingly dominated by Arabizi. It is used primarily in casual messaging, social media, and among diaspora communities online, where it facilitates seamless code-switching between Darija and European languages. However, Arabizi was never designed as a true orthography; it was adopted organically as early computers lacked support for the Arabic script. Instead, it compresses Darija phonology into the basic 26-letter Latin alphabet by introducing numerals (such as 3, 7, and 9) to represent sounds absent from Latin. While this approach is efficient for rapid informal communication, its lack of standardized spelling conventions makes it unsuitable for sustained writing, educational materials, digital corpora, or computational processing.
+Latin-based writing, by contrast, is overwhelmingly dominated by Arabizi. It is used primarily in casual messaging, social media, and among diaspora communities online, where it facilitates seamless fast texting and easy code-switching between Darija and European languages. However, Arabizi was never designed as a true orthography; it was adopted organically as early computers lacked support for the Arabic script. Instead, it compresses Darija phonology into the basic 26-letter Latin alphabet by introducing numerals (such as 3, 7, and 9) to represent sounds absent from Latin. While this approach is efficient for rapid informal communication, its lack of standardized spelling conventions makes it unsuitable for sustained writing, educational materials, digital corpora, or computational processing.
 
 Academic Latin transliteration systems also exist, but they serve linguists rather than everyday writers. These systems prioritize reversibility over usability. Furthermore, existing Latin renderings rarely agree on grammatical segmentation. Writers variously join or split grammatical elements, producing inconsistent forms.
 
 This proposal builds upon the Standard Latin Amazigh orthography, which has already solved many of these design challenges, it also offers access to existing Azerty keyboards on computer systems and smarphones with the extended Latin letters. This system is suitable for Darija since Amazigh writing employs a dedicated letter for each phoneme, minimizes the use of diacritics, and applies consistent rules for word boundaries and morphology. 
 
-The following sections present an adapted Latin orthography for Moroccan Darija that applies these same principles. The result is a practical writing system that is easy for everyday use, yet precise enough for linguistic work and natural language processing. Because many Maghrebi dialects share similar phonological systems, this framework could also be extended beyond Morocco.
+The following sections present an adapted Latin orthography for Moroccan Darija that applies these same principles. The result is a practical writing system that is easy to use, yet precise enough for linguistic work and natural language processing.
 
 ---
 
@@ -22,7 +32,7 @@ The following sections present an adapted Latin orthography for Moroccan Darija 
 The proposed Latin alphabet for Moroccan Darija consists of 29 primary letters:
 **a, b, c, d, ḍ, e, ɛ, f, g, ɣ, h, ḥ, i, j, k, l, m, n, q, r, s, ṣ, t, ṭ, u, w, x, y, z**
 
-This inventory closely follows the Standard Latin Amazigh alphabet while introducing only the symbols necessary to represent phonemic distinctions found in Darija. The labialization marker "w" could be used if needed, but it is often better to drop it and substitute it where it is phonemically important with a simple "w" or "u" depending on what is better for each word (e.g.,m, *lxḍra* / is green - feminine / *lxwḍra* or *lxuḍra* is vegetables).
+This inventory closely follows the Standard Latin Amazigh alphabet while introducing only the symbols necessary to represent phonemic distinctions found in Darija.
 
 ### 1. Dedicated Letter for Ayn (ɛ)
 Rather than using the academic modifier letter (ʿ) or the Arabizi numeral (3), this system adopts the full letter **ɛ / Ɛ** to represent the voiced pharyngeal fricative (/ʕ/). Unlike superscript symbols or apostrophe-like marks, **ɛ** functions as a normal alphabetic letter, making reading and typing considerably more intuitive.
@@ -88,16 +98,37 @@ When a foreign word becomes fully lexicalized in Darija, a phonetic spelling rem
 *  *jafil* (bleach) feom Javil.
 
 ### 8. The hamza
-The hamza will be written using simply "e". where the two vowels meet, a circumflex accent will be on *ê* if it is directly after a consonant.
+The hamza will be written using simply "e". A circumflex accent will be on *ê* if it is directly after a consonant to avoid mistaking it to a shwa.
 *   *Aasmae* أسماء
 *   *Fuead* فؤاد
 *   *Mueassasa* مؤسسة
-*   *ietiman* ائتمان
-*   *Fadae*
-*   *Juzê*, *ajzae*
+*   *Ietiman* ائتمان
+*   *Faḍae* فضاء
+*   *Juzê*, *ajzae* جزء، أجزاء
 
-At the start of words or after the definitive article *l*, it is usually normalized to a normal vowel. e.g., leinsan => linsan, einsan => insan. However, if to show the Hamza in the written text, the modifier letter apostrophe should be used: ʼinsan, lʼinsan. A normal apostrophe works fine in this case, however, it breaks words, like if you write a hashtag, or process texts with regex, the modifier lether apostrophe works better as it is considered a letter not a punctuation mark. 
+Where vowels meet, the "e" can be redundant, so another solution for this case where needed is:
+*  *Fuad*
+*  *Muassasa*
+UA won't be read as WA, they would be U-A, also reading it as WA produces the natural sound that Darija speakers would say, especially the elderlied who can't pronounce the Hamza, youths usually can for being taught Standard Arabic.
 
+Note:
+At the start of words or after the definitive article *L*, it is usually normalized to a normal vowel.
+*  *Leinsan* => *linsan*
+*  *einsan* => *insan*
+*  *Leimtiḥan* -> *Limtiḥan*
+*  *eimtiḥan* -> *imtiḥan*
+
+However, if the circumstances needs showing the Hamza for following Standard Arabic pronunciation or for dialect variants, there light be, the modifier letter apostrophe **ʼ** should be used:
+*  *ʼinsan*
+*  *lʼinsan*
+
+A normal apostrophe can work in this case, after the definitive article or at the start of a word, however, it breaks words since it is a punctuation mark character. For example, if you write a hashtag, the modifier lether apostrophe works keeps the whole word it is in as one hashtag, while using an apostrophe breaks the hashtag to the point where that apostrophe is found.
+
+### 9. Omission of the Labialization Marker (ʷ)
+The modifier letter **ʷ** is omitted from the standard inventory to avoid redundancy. Instead, when labialization is phonemically distinct or necessary for clarity, it is represented using a standard **w**.
+ * *lxḍra* (green – feminine)
+*  *lxwḍra* (vegetables)
+ 
 ---
 
 ## II. Word Boundaries and Segmentation
@@ -124,7 +155,7 @@ For unintegrated foreign words, an apostrophe separates the article from the bor
 Note: the apostrophe also used for verb affixation added to foreign verbs (e.g., *m'follow'in-ni* *they follow me - on social media*, it would be like this when respelled in Ddarija: *mfulwin-ni*) 
 
 ### 2. Aspect and Future Markers
-Aspectual particles remain independent words, to reduce the hyphens they are avoided in this case for its redundancy.
+Aspectual particles remain independent words, to reduce the hyphens, they are avoided in this case for its redundancy despite them being realized in speech as one element.
 *   *ka ncuf*
 *   *ka nekteb*
 *   *ka idir*
@@ -138,9 +169,7 @@ Negation follows the discontinuous pattern: **ma... -c**. The particle *ma* rema
 *   *ma ka ncuf-c*
 *   *ma ndir-c*
 *   *ma ɣadi-c*
-*   *ma ɛref-ha-c*
-
-Note: *-c* is never attached to the verb, if the hyphen here seems uneeded, a space is mandatory.
+*   *ma ka nɛerf-ha-c*
 
 ### 4. Prepositions
 Simple prepositions remain separate before nouns.
@@ -149,37 +178,37 @@ Simple prepositions remain separate before nouns.
 *   *b ssif*
 *   *b lḥubb*
 
-When followed by pronominal suffixes, both glued and hyphenated spellings are acceptable:
-*  *liya* / *li-ya*
-*  *lik* / *li-k*
-*   *fiya* / *fi-ya*
-*   *fik* / *fi-k*
-*   *mɛana* / *mɛa-na*
-*   *ɛlihum* / *ɛli-hum*
-(Glued forms are practical for everyday writing; hyphenated forms for educational contexts and in well written forms of texts).
+When followed by pronominal suffixes, they should be hyphenated, however they can be glued for casual texting:
+*  *li-ya* / *liya*
+*  *li-k* / *lik*
+*   *fi-ya* / *fiya*
+*   *fi-k* / *fik*
+*   *mɛa-na* / *mɛana*
+*   *ɛli-hum* / *ɛlihum*
 
-The short form of some of these should be written always glued together:
-*  *li*
-*  *lek*
-*   *fek*
-*   *ɛlek*
+
+The forms where *i* is reduxed to *e*:
+*  *li* (-ya is absent)  
+*  *l-ek* / *lek*
+*   *f-ek* / *fek*
+*   *ɛl-ek* / *ɛlek*
 
 ### 5. Attached Pronouns
 Pronominal suffixes aren written hyphenated to improve morphological transparency.
-*   *qelb-i / gelb-i
-*   *ras-ek / raṣ-ek¹
+*   *qelb-i* / *gelb-i*
+*   *raṣ-ek¹*
 *   *jab-ha*
 *   *ɛṭa-ni*
 
 1: The "e" can be inserted where it appears before prominal suffixes and this concerns "-k" (e.g., *qelb-ek, ɛeyn-ek*) 
 
 ### 6. Demonstratives and Presentatives
-Presentative particles and demonstratives follow the same principle.
-*   *rah* / *ra-h*
-*   *rani* / *ra-ni*
-*   *hada* / *had-a*
-*   *hadi* / *had-i*
-*   *haduk* / *had-uk*
+Presentative particles and demonstratives follow the same principle, they should be hyphenated in standard texts, and can be glued together for everyday usage.
+*   *ra-h* / *rah*
+*   *ra-ni* / *rani*
+*   *had-a* / *hada*
+*   *had-i* / *hadi*
+*   *had-uk* / *haduk*
 
 Contracted demonstratives are always independent words:
 *   *dak lweld*
@@ -200,11 +229,11 @@ Likewise, an epenthetic vowel may appear before attached pronouns during speech 
 *   *xellit-ek*, *dert-ek*, *qelb-ek*
 
 **C. Movement of the Schwa**
-Because the schwa is often not part of the lexical stem, its position may shift as prefixes, suffixes, or other elements are added.
+Because the schwa is often not part of the lexical stem, its position may shift as prefixes, suffixes, or other elements are added or in alternative forms of the same word root.
 *   *nɛes* (to sleep) -> *ka tenɛes* (you sleep / she sleeps)
 *   *nsa* (to forget) -> *nessi* (to make someone forget) -> *ka nenssi* (I make someone forget)
 
-**General Principle:** The schwa is written when it is realized, the clearer it is the more important to be written it becomes. When grammatical changes cause the schwa to shift position, each word form should simply be written according to its own natural pronunciation. And words that may take more than one form in placing that *e*, the one that follows the usual pattern of similar words is what should be chosen. This concerns Lexical standardization regarding spelling of words with different forms to a single one. 
+**General Principle:** The schwa is written when it is realized, the clearer it is the more important to be written it becomes. When grammatical changes cause the schwa to shift position, each word form should simply be written according to its own natural pronunciation. And words that may take more than one form in placing that *e*, the one that follows the usual pattern of similar words is what should be chosen. This concerns Lexical standardization regarding spelling of words with different forms to a single one. This needs a solution at the level of lexical standardization. 
 
 ---
 
@@ -226,9 +255,9 @@ Darija distinguishes masculine and feminine nouns.
 The ending *-a* corresponds historically to the Arabic tae marbuṭa (ة). Although pronounced as *-a* in isolation, its underlying consonant is *t*, which reappears whenever another element follows.
 *   *mdina* -> *mdint Zagura*
 *   *xedma* -> *xedmt-i*
-*   *hiwaya* -> *hiwayt-k*
+*   *hiwaya* -> *hiwayt-ek*
 
-For this reason, the dictionary form is written with *-a*, while derived forms restore the historical *t*. An *ä* can be used for NLP and automation tools to mark this underlying *t*, and use *ẗ* where it becomes *t*, e.g., *mdinä* becomes *mdinẗ-na*, in both, this is just for automation oriented tasks not for user ready-to-read text forms. This approach keeps clear that it is an *a* and a *t* in both cases, only two dots are added on top to mark the etymological tae marbuta *ة*. 
+For this reason, the dictionary form is written with *-a*, while derived forms restore the historical *t*. An *ä* can be used for NLP and automation tools to mark this underlying *t*, and use *ẗ* where it becomes *t*, e.g., *mdinä* becomes *mdinẗ-na*, in both, this is just for automation oriented tasks not for user ready-to-read text forms. This approach keeps clear that it is an *a* and a *t* in both cases, only two dots are added on top to mark the etymological tae marbuta *ة* for text retrieving tools. 
 
 ---
 
@@ -251,7 +280,7 @@ The present uses prefixes and suffixes that identify person:
 *   Ntuma: **t-...-u** (ka *tcufu*)
 *   Huma: **i-...-u** (ka *icufu*)
 
-1: *ka* is added to help with realizing the verbs usage, you can replace it with other particles that go with the present verbs: e.g., xaṣṣ *txuf*, ɣadi *ncuf*, ta *ncuf*, ma dertc *ncuf*-u lyum.
+1: *ka* is added to help with realizing the verbs usage, you can replace it with other particles that go with the present verbs: e.g., xaṣṣ *tcuf*, ɣadi *ncuf*, ta *ncuf*, ma dertc *ncuf*-u lyum.
 
 Habitual/progressive meaning uses **ka** or **ta**:
 *   *ka ncuf* / *ta ncuf*
@@ -268,11 +297,11 @@ Example: *kla* (to eat)
 *   **Stem A ("kli"):** Ana (*klit*), Nta (*kliti*), Nti (*kliti*), Ḥna (*klina*), Ntuma (*klitu*)
 *   **Stem B ("kla"):** Huwa (*kla*), Hiya (*klat*), Huma (*klaw*)
 
-*(Note: Sometimes "Hiya" gets -a added before -t when the verb ends in a consonant. e.g., huwa nɛes, hiya nɛesat, while it syays just - t in huwa kla, hiya klat, huwa dar, hiya dart - ending in a consonant here doesn't trigger this change because it is "a" plus a consonant while the previous one is "e")*
+*(Note: Sometimes "Hiya" gets -a added before -t when the verb ends in a consonant with no "a" before it. e.g., huwa nɛes, hiya nɛesat, while it syays just - t in huwa kla, hiya klat, huwa dar, hiya dart - ending in a consonant here doesn't trigger this change because it is "a" plus a consonant while the previous one is "e", in other cases where it is a consonant or a semi-vowel)*
 
 ### 4. Prefix Adjustments
 Some prefixes change slightly to avoid impossible consonant clusters:
-*   If a present stem begins with *tt*, the prefix *t* becomes *te*: (e.g., *hiya ɣa tttfehhem* => *hiya ɣa tettfehhem*)
+*   If a present stem begins with *tt* or *t*, the prefix *t* becomes *te*: (e.g., *hiya ɣa tttfehhem* => *hiya ɣa tettfehhem*)
 *   *n + n...* becomes *ne...*: (e.g., *ana ɣa nnzel* => *ana ɣa nenzel*)
 *   When a stem begins with a vowel, the third-person prefix *i-* becomes *y-*: (e.g., *akwl* => *huwa ka yakwl*)
 
@@ -283,14 +312,14 @@ The internal schwa is mobile. Its position changes when prefixes or suffixes are
 
 ### 6. Participles
 Darija has productive active and passive participles that inflect like adjectives.
-*   **Masculine singular:** *dayr*, *medyur* | *kateb*, *mektub*
+*   **Masculine singular:** *dayer*, *medyur* | *kateb*, *mektub*
 *   **Feminine singular:** *dayra*, *medyura*
 *   **Masculine plural:** *dayrin*, *medyurin*
 *   **Feminine plural:** *dayrat*
-The stems are *dayr, medyur, kateb, mektub*. 
+The stems are *dayer, medyur, kateb, mektub*. 
 
 They frequently function as adjectives or verbal predicates:
-*   *ana lli dayr imci l temma*
+*   *ana lli dayer imci l temma*
 *   *hiya dayra nnegliziya*
 *   *huma dayrin hukkak*
 
@@ -304,4 +333,15 @@ Verbs are negated with the discontinuous particle **ma... -c**.
 
 ## V. Text Examples
 
-> Had nneṣṣ mektub b waḥed l'orthography d Ddarija b llatini. Lhadaf huwa ikun ɛend-na waḥd ssistam lli isehhel lketba w f nafs lweqt ikun waḍḥ. Arabizi ma imken-c ixdem fac tji l scaling lli ɣa iḥtaj-u lwaḥd fac ibɣi ikteb qeṣṣa, ktab, wella muḥtawa b luɣa dqiqa. Hada ka iḥell lmuckil f janib ccekl llatini. Amma f janib lɛerbi fra-h meḥlul yaḍ w nnas ka istɛemlu-h ḥit kayna Lɛerbiya Lmiɛyariya Jjdida lli ka ihezzu ɛli-ha ṭriqt lketba, ka ibqqaw ɣa umur bsiṭa w sahla lli ka iqder ikun fi-hum niqac bac tettweḥḥed kter. Lhadaf men had lektba hiya llatini d Ddarija lli ma ɛendu-c ci ckel mnaseb lli iqderu nnas irejɛu li-h. iqder iban ṣɛib walakin ra-h ma ṣɛib-c ɛla Arabizi, b lɛeks, had-a sahel men naḥiya dyal lwuḍuḥ w ddiqqa w f nafs lweqt sahel f lketba w f leqraya. dar-u = ci ḥedd dar ci ḥedd wella ci ḥaja f ci blaṣa. daru = ci wḥdin daru ci ḥaja. dar = dar ci ḥaja, ḍar = leblaṣa fin ka isken lwaḥed. b ac = b acmen ḥaja. bac = dir hakka bac tewḍaḥ ktebt-ek. wac mciti = wac derti lfiɛl. w ac derti = w acnahiya lḥaja lli derti. Bzzaf dyal leḥwayj ka iwḍaḥ-u b had ssistam, w la ɛrefti kifac xeddam ɣa ishal tɛerf ki xeddam lḥerf d lɛerbiya f Ddarija, w teqder tṣeḥḥeḥ w tmeɛyer ktebt-ek bi-h ḥtta ḥewwa. 
+Had nneṣṣ mektub b waḥed l'orthography d Ddarija b llatini. Lhadaf huwa ikun ɛend-na waḥd ssistam lli isehhel lketba w f nafs lweqt ikun waḍḥ. Arabizi ma imken-c ixdem fac tji l scaling lli ɣa iḥtaj-u lwaḥd fac ibɣi ikteb qeṣṣa, ktab, wella muḥtawa b luɣa dqiqa. Hada ka iḥell lmuckil f janib ccekl llatini. Amma f janib lɛerbi fra-h meḥlul yaḍ w nnas ka istɛemlu-h ḥit kayna Lɛerbiya Lmiɛyariya Jjdida lli ka ihezzu ɛli-ha ṭriqt lketba, ka ibqqaw ɣa umur bsiṭa w sahla lli ka iqder ikun fi-hum niqac bac tettweḥḥed kter. Lhadaf men had lektba hiya llatini d Ddarija lli ma ɛendu-c ci ckel mnaseb lli iqderu nnas irejɛu li-h. iqder iban ṣɛib walakin ra-h ma ṣɛib-c ɛla Arabizi, b lɛeks, had-a sahel men naḥiya dyal lwuḍuḥ w ddiqqa w f nafs lweqt sahel f lketba w f leqraya.
+
+* Ṣifṭ-u = Waḥed ṣifṭ ci ḥaja
+* Ṣifṭu = ci weḥdin ṣifṭu ci ḥaja
+* Dar = dar ci ḥaja
+* Ḍar = leblaṣa fin ka isken lwaḥed
+* B ac = b acmen ḥaja
+* Bac = dir hakka bac tewḍaḥ ktebt-ek
+* Wac mciti = wac derti lfiɛl
+* W ac derti = w acnahiya lḥaja lli derti
+
+Bzzaf dyal leḥwayj ka iwḍaḥ-u b had ssistam, w la ɛrefti kifac xeddam ɣa ishal tɛerf ki xeddam lḥerf d lɛerbiya f Ddarija, w teqder tṣeḥḥeḥ w tmeɛyer ktebt-ek bi-h ḥtta ḥewwa. 
