@@ -4,7 +4,6 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 # Check Here
 * **Full Proposal:** [README.md], **Read below** ⬇️
 * **Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
-* **System Comparisons:** [comparison.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/comparison.md)
 
 ---
 
