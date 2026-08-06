@@ -2,7 +2,7 @@
 A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 
 # Check Here
-* **Full Proposal:** [README.md], **Read below** ⬇️
+* **Full Proposal: Constantly updated** [README.md], **Read below** ⬇️
 * **Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
 
 ---
@@ -14,8 +14,8 @@ This repository presents a standardized Latin-script orthography for Moroccan Ar
 To demonstrate its practical application, this project includes comprehensive writing rules, and there will be in the future annotated text examples, song lyrics, and mini-dictionary glossaries. It is designed as a practical reference for anyone seeking a structured Latin-script solution for Darija.
 
 ## Scope & Intent
-* **Framework First:** This proposal establishes the core orthographic rules (graphemes, word boundaries, and clitics). It deliberately excludes advanced grammatical standardization or regional lexical variants (e.g., choosing between *gelb* vs. *qelb*). Lexical standardization remains a separate effort.
-* **Open for Improvement:** While functional and ready for use, this system remains open to feedback and refinement.
+* **Framework First:** This proposal establishes the core orthographic rules (graphemes, word boundaries, and clitics). It deliberately excludes advanced grammatical standardization or regional lexical variants (e.g., choosing between *gelb* vs. *qelb*). Lexical standardization remains separate from the current system.
+* **Open for Improvement:** While functional and ready for use, this system remains open to feedback and refinement, usually some minor changes.
 
 ---
 
@@ -41,13 +41,13 @@ The proposed Latin alphabet for Moroccan Darija consists of 29 primary letters:
 This inventory closely follows the Standard Latin Amazigh alphabet while introducing only the symbols necessary to represent phonemic distinctions found in Darija.
 
 ### 1. Dedicated Letter for Ayn (ɛ)
-Rather than using the academic modifier letter (ʿ) or the Arabizi numeral (3), this system adopts the full letter **ɛ / Ɛ** to represent the voiced pharyngeal fricative (/ʕ/). Unlike superscript symbols or apostrophe-like marks, **ɛ** functions as a normal alphabetic letter, making reading and typing considerably more intuitive.
-*   *ɛeyn* / *ɛayn* (eye)
+Rather than using the academic modifier letter (ʿ) or the Arabizi numeral (3), this system adopts the full letter **ɛ / Ɛ** to represent the voiced pharyngeal fricative (/ʕ/). Unlike superscript symbols or apostrophe-like marks, **ɛ** functions as a normal alphabetic letter, making reading and typing considerably more intuitive, Ayn is usually written with *e* when it is not number 3 is what is being used, and ɛ is just an alternative "e" sound symbol, and also it is similar in shape with the letter Ayn.
+*   *ɛeyn* / *ɛin* (eye)
 *   *ɛafa-k* (please)
 *   *mɛa* (with)
 
 ### 2. A Single Letter for the "Sh" Sound (c)
-The letter **c / C** represents the voiceless postalveolar fricative (/ʃ/). Since the Latin letter C has no independent phonetic function in Darija, it can be reassigned to this sound, eliminating the need for digraphs such as *sh* or *ch*, or the academic symbol *š*.
+The letter **c / C** represents the voiceless postalveolar fricative (/ʃ/). Since the Latin letter C has no independent phonetic function in Darija, it can be reassigned to this sound, eliminating the need for digraphs such as *sh* or *ch*, or the academic symbol *š*. C is just a contraction of "ch" since "c" alone doesn't have a value in Darija, so asigning the whole diagraph sound to it works better.
 *   *cuf* (See/look)
 *   *cbab* (Youths)
 *   *mca* (He went)
@@ -75,23 +75,24 @@ The letter **ḥ** also carries an underdot, not because it is emphatic, but to 
 *   *ḥut* (fish)
 
 **Secondary Emphatics:**
-The letters **ṛ** and **ẓ** are not included in the standard set, they should not be used in a standard piege of writing using this system, however they may optionally be used where emphatic pronunciation exists independently of nearby emphatic consonants, where it may be important such 1s in phonetic transcription. Because emphasis naturally spreads across neighboring sounds, these markings are usually unnecessary (e.g., in *Ḍar*, the emphasis of *ḍ* makes *ṛ* redundant). However, where *z* and *r* exist in a word with no other emphatic letters, writers may choose to label one or both: *zher*, *ẓher*, *zheṛ* (labeling *ẓ* is recommended). All could be labeled according to the desired degree of phonetic precision.
-Likewise, rare emphatic realizations of other consonants (ḅ, ṃ, ḷ) may be indicated with underdots in phonetic contexts, though such usage is should not be used in ordinary writing.
+The letters **ṛ** and **ẓ** are not included in the standard set, they should not be used in a standard form of writing using this system, however they may optionally be used where emphatic pronunciation exists independently of nearby emphatic consonants, where it may be important such as in phonetic transcription. Because emphasis naturally spreads across neighboring sounds, these markings are usually unnecessary (e.g., in *Ḍar*, the emphasis of *ḍ* makes marking a dot under *ṛ* redundant). However, where *z* and *r* exist in a word with no other emphatic letters, writers may choose to label one or both: *zher*, *ẓher*, *zheṛ* (labeling *ẓ* is recommended). All could be labeled according to the desired degree of phonetic precision.
+Likewise, rare emphatic realizations of other consonants (ḅ, ṃ, ḷ) may be indicated with underdots in phonetic contexts, though such usage should not be used in ordinary writing.
 
 ### 6. Omitted and Restricted Latin Letters
 **The Letter O:**
 The vowel *o* is omitted from standard spelling. In Darija, [o] is generally an allophonic realization of *u*, occurring next to emphatic or pharyngeal consonants. Writing both letters introduces unnecessary variation without representing a phonemic distinction.
 *   Use *xubz* and *ḍur* (rather than *xobz* or *dor*).
 Letter *a* has as well an allophonic which isn't in the standard 26 Latin Alphabet of European languahes, which us *ɑ*.
-*  *dar* is what is being used for house and not *dɑr*, in this standard system, it would be preferable to write Ḍar as there is emphasis on *D*. 
+*  *dar* is what is being used for house and not *dɑr*, in this standard system, it would be preferable to write Ḍar as there is emphasis on *D*, exactly how to not include "o" just because it is available. 
 
 **The Letters P and V:**
 The letters *p* and *v* are reserved for recent loanwords in which these sounds remain distinct. Older borrowings continue to follow established Darija pronunciations.
-*   *ppisṭac* (pistachio)
+*   *ppiṣṭac* (pistachio)
 *   *ppnu* (tire)
 *   *vitamin* (vitamin)
 *   *villa* (villa)
-*   *plastik (plastic)  
+*   *pplastik (plastic)
+These terms could be spelled with their original language speling if needed as you will see in the next part.
 
 ### 7. Foreign Words and Code-Switching
 Foreign words, proper names, trademarks, and place names may retain their original Latin spelling when they have not been fully integrated into Darija. Respelling internationally recognized names phonetically often reduces readability while providing little practical benefit.
@@ -101,21 +102,21 @@ Foreign words, proper names, trademarks, and place names may retain their origin
 
 When a foreign word becomes fully lexicalized in Darija, a phonetic spelling remains acceptable.
 *  *baliza* (suit-case) from La valise. 
-*  *jafil* (bleach) feom Javil.
+*  *jafil* (bleach) from Javil.
 
 ### 8. The hamza
 The hamza will be written using simply "e". A circumflex accent will be on *ê* if it is directly after a consonant to avoid mistaking it to a shwa.
-*   *Aasmae* أسماء
+*   *Asmae* أسماء
 *   *Fuead* فؤاد
 *   *Mueassasa* مؤسسة
 *   *Ietiman* ائتمان
 *   *Faḍae* فضاء
 *   *Juzê*, *ajzae* جزء، أجزاء
 
-Where vowels meet, the "e" can be redundant, so another solution for this case where needed is:
+Where vowels meet, the "e" can be redundant, so another solution for this case where needed is as following:
 *  *Fuad*
 *  *Muassasa*
-UA won't be read as WA, they would be U-A, also reading it as WA produces the natural sound that Darija speakers would say, especially the elderlied who can't pronounce the Hamza, youths usually can for being taught Standard Arabic.
+UA won't be read as WA, they would be U-A, also reading it as WA produces the natural sound that Darija speakers would say, especially the elderlies who can't pronounce the Hamza for not being affected by MSA in schools, youths usually can for being taught Standard Arabic.
 
 Note:
 At the start of words or after the definitive article *L*, it is usually normalized to a normal vowel.
@@ -124,11 +125,11 @@ At the start of words or after the definitive article *L*, it is usually normali
 *  *Leimtiḥan* -> *Limtiḥan*
 *  *eimtiḥan* -> *imtiḥan*
 
-However, if the circumstances needs showing the Hamza for following Standard Arabic pronunciation or for dialect variants, there light be, the modifier letter apostrophe **ʼ** should be used:
+However, if the circumstances needs showing the Hamza for following Standard Arabic pronunciation or for dialect variants, there might be, the modifier letter apostrophe **ʼ** should be used:
 *  *ʼinsan*
 *  *lʼinsan*
 
-A normal apostrophe can work in this case, after the definitive article or at the start of a word, however, it breaks words since it is a punctuation mark character. For example, if you write a hashtag, the modifier lether apostrophe works keeps the whole word it is in as one hashtag, while using an apostrophe breaks the hashtag to the point where that apostrophe is found.
+A normal apostrophe can work in this case, after the definitive article or at the start of a word, however, it breaks words since it is a punctuation mark character. For example, if you write a hashtag, the modifier letter apostrophe keeps the whole word as one string for the hashtag, while using an apostrophe breaks the hashtag to the point where that apostrophe is.
 
 ### 9. Omission of the Labialization Marker (ʷ)
 The modifier letter **ʷ** is omitted from the standard inventory to avoid redundancy. Instead, when labialization is phonemically distinct or necessary for clarity, it is represented using a standard **w**.
@@ -292,7 +293,7 @@ Habitual/progressive meaning uses **ka** or **ta**:
 *   *ka ncuf* / *ta ncuf*
 *   *ka tdir* / *ta tdir*
 
-Future meaning uses **ɣa**, **ɣadi**, or **a**:
+Future meaning uses **ɣa**, **ɣadi**, or **a/ɛa**:
 *   *ɣa ncuf*
 *   *ɣadi nji*
 *   *a nemci*
