@@ -6,7 +6,7 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 * **Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
 * There is the version as the following, it uses Shwa "e" and hyphen. A more simplified version is simply, attach words where a hyphen exists, and drop short vowels if not needed, this can be for convenience where not well written form is needed, example: 
 * **Dert-u bac nettɛellem Nnegliziya, ɛend-i imtiḥan**
-* **Dertu bac nettɛllm Nngliziya, ɛndi imtiḥan**
+* **Drtu bac nettɛllm Nngliziya, ɛndi imtiḥan**
 * This can decrease the friction in using this system. 
 
 ---
