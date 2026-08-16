@@ -2,9 +2,13 @@
 A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 
 # Check Here
+* Edit: I came lately across this paper which applies the same approach, You can [Read it here](https://www.academia.edu/31430700/Standard_Maghrebi_Orthography?__cf_chl_rt_tk=ZN9FW6xkymyDUl.IjRldwDkpHs3A8w_iiBI93m65ZUM-1786918338-1.0.1.1-CE5bcIY2_dv3Aj4ttGKOYBlaJF3CEajPGY3ZJFCPN54)
+
+# 
 * **Full Proposal: Constantly updated** [README.md], **Read below** ⬇️
-* **Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
-* There is the version as the following, it uses Shwa "e" and hyphen. A more simplified version is simply, attach words where a hyphen exists, and drop short vowels if not needed, this can be for convenience where not well written form is needed, example: 
+* **This orthography Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
+ 
+* There is this version as the following in this orthography which uses the short vowel Shwa "e" and hyphens. A more simplified version is simply, attach words where a hyphen exists, and drop short vowels if not needed, this can be for convenience where not well written form is needed, example: 
 * **Dert-u bac nettɛellem Nnegliziya, ɛend-i imtiḥan**
 * **Drtu bac nttɛllm Nngliziya, ɛndi imtiḥan**
 * This can decrease the friction in using this system.
