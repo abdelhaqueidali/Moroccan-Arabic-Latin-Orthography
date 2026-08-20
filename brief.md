@@ -1,6 +1,6 @@
 # Moroccan Darija Latin Orthography (Quick Reference)
 
-A standardized Latin orthography for Moroccan Arabic (Darija), adapted from the **Standard Amazigh Latin alphabet**. It replaces Arabizi with a consistent, keyboard-friendly writing system suitable for everyday writing, education, and digital processing.
+A Latin orthography for Moroccan Arabic (Darija), adapted from the **Standard Amazigh Latin alphabet**. It replaces Arabizi with a consistent system.
 
 ## Alphabet
 
