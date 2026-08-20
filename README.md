@@ -2,10 +2,10 @@
 A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 
 # Check Here
-* Edit: I came lately across this paper which applies the same approach, You can [Read it here](https://www.academia.edu/31430700/Standard_Maghrebi_Orthography?__cf_chl_rt_tk=ZN9FW6xkymyDUl.IjRldwDkpHs3A8w_iiBI93m65ZUM-1786918338-1.0.1.1-CE5bcIY2_dv3Aj4ttGKOYBlaJF3CEajPGY3ZJFCPN54)
+* Edit: I came lately across this paper which applies the same approach of adopting Amazigh conventions, You can [Read it here](https://www.academia.edu/31430700/Standard_Maghrebi_Orthography?__cf_chl_rt_tk=ZN9FW6xkymyDUl.IjRldwDkpHs3A8w_iiBI93m65ZUM-1786918338-1.0.1.1-CE5bcIY2_dv3Aj4ttGKOYBlaJF3CEajPGY3ZJFCPN54)
 
 # 
-* **Full Proposal: Constantly updated** [README.md], **Read below** ⬇️
+* **Full Orthography: Constantly updated** [README.md], **Read below** ⬇️
 * **This orthography Brief Version:** [brief.md](https://github.com/abdelhaqueidali/Moroccan-Arabic-Latin-Orthography/blob/main/brief.md)
  
 * There is this version as the following in this orthography which uses the short vowel Shwa "e" and hyphens. A more simplified version is simply, attach words where a hyphen exists, and drop short vowels if not needed, this can be for convenience where not well written form is needed, example: 
@@ -19,13 +19,12 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 
 # A Latin Orthography for Moroccan Arabic (Darija)
 
-This repository presents a standardized Latin-script orthography for Moroccan Arabic (Darija), adapted directly from the established Amazigh-Latin system to resolve long-standing issues in conventional Darija writings. Rather than inventing new symbols or  reassigning new letters, this approach leverages an established alphabet already integrated into modern smartphone and desktop keyboards. By aligning with this system, Darija directly benefits from existing input methods, character sets, and computational infrastructure.
-
-To demonstrate its practical application, this project includes comprehensive writing rules, and there will be in the future annotated text examples, song lyrics, and mini-dictionary glossaries. It is designed as a practical reference for anyone seeking a structured Latin-script solution for Darija.
+This repository presents a version of Latin-script orthography for Moroccan Arabic (Darija), adapted directly from the established Amazigh-Latin system to resolve the issues in conventional Darija writings. Rather than inventing new symbols or reassigning new letters, this approach leverages an established alphabet already integrated into modern smartphone and desktop keyboards. By aligning with this system, it directly benefits from existing input methods, and character sets.
 
 ## Scope & Intent
-* **Framework First:** This proposal establishes the core orthographic rules (graphemes, word boundaries, and clitics). It deliberately excludes advanced grammatical standardization or regional lexical variants (e.g., choosing between *gelb* vs. *qelb*). Lexical standardization remains separate from the current system.
-* **Open for Improvement:** While functional and ready for use, this system remains open to feedback and refinement, usually some minor changes.
+* **Framework First:** This establishes the core orthographic rules (graphemes, word boundaries, and clitics).
+
+* **Open for Improvement:** While functional and ready for use, this system remains open to feedback and refinement.
 
 ---
 
