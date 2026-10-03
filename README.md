@@ -15,7 +15,7 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 * Short vowel can be kept though:
 * **Dertu bac nettɛellem Nnegliziya, ɛendi imtiḥan**
 
-* **Different sets to compare**
+# **Different sets to compare**
 * Amazigh Latin is what I used in this repo.
 
 | Amazigh Latin* | Amazigh | Arabic | French | Arabizi | French-Ext | Arabic Latin |
