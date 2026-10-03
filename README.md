@@ -15,6 +15,55 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 * Short vowel can be kept though:
 * **Dertu bac nettɛellem Nnegliziya, ɛendi imtiḥan**
 
+* **Different sets to compare**
+* Amazigh Latin is what I used in this repo.
+
+| Amazigh Latin* | Amazigh | Arabic | French | Arabizi | French-Ext | Arabic Latin |
+|---|---|---|---|---|---|---|
+| a | ⴰ | أ/ا/ءا | a | a | a | a |
+| b | ⴱ | ب | b | b | b | b |
+| c | ⵛ | ش | ch | x | ċ | š |
+| d | ⴷ | د | d | d | d | d |
+| ḍ | ⴹ | ض | d | d | ḍ | ḍ |
+| e | ⴻ |  | e | e | e | e |
+| ɛ | ⵄ | ع | ë | 3 | ẹ | ʿ |
+| f | ⴼ | ف | f | f | f | f |
+| g | ⴳ | گ | g | g | g | g |
+| h | ⵀ | ه | h | h | h | h |
+| ḥ | ⵃ | ح | h | 7 | ḥ | ḥ |
+| i | ⵉ | ئ/ي/ءي | i | i | i | i |
+| j | ⵊ | ج | j | j | j | j |
+| k | ⴽ | ك | k | k | k | k |
+| l | ⵍ | ل | l | l | l | l |
+| m | ⵎ | م | m | m | m | m |
+| n | ⵏ | ن | n | n | n | n |
+|  o | ⵓ | ؤ/و/ءو | o | o | o | o |
+| p | ⵒ | پ | p | p | p | p |
+| q | ⵇ | ق | q | 9 | q | q |
+| r | ⵔ | ر | r | r | r | r |
+| ṛ | ⵕ | ڕ | r | r | ṛ | ṛ |
+| s | ⵙ | س | s | s | s | s |
+| ṣ | ⵚ | ص | s | s | ṣ | ṣ |
+| t | ⵜ | ت | t | t | t | t |
+| ṭ | ⵟ | ط | t | t | ṭ | ṭ |
+| u | ⵓ | ؤ/و/ءو | o | o | u | u |
+| v | ⵠ | ڤ | v | v | v | v |
+| w | ⵡ | و | w | w | w | w |
+| x | ⵅ | خ | kh | 5 | ḳ | ḫ |
+| y | ⵢ | ي | y | y | y | y |
+| z | ⵣ | ز | z | z | z | z |
+| ẓ | ⵥ | ژ | z | z | ẓ | ẓ |
+| ʼ/e/ê | ʼ | ء | ê | ê | ʼ | ˈ |
+
+* **Amazigh Latin** relies on Amazigh Latin set, with Hamza added.
+* **Amazigh** is for Amazigh script, Tifiangh, representation. (Not recommended at all for Darija)
+* **Arabic** is the Arabic set letters.
+* **French** is adapted French and English alphabet, relies on digraphs and no distinction for emphatic letters and others.
+* **Arabizi** Adapted French and English alphabet with numbers to represent some letters. Chat style.
+* **French-ext** is an extention to French and English set, by trabslating the digraphs to a dot under letters, as well as distinguishing emphatics with a dot as well, and the ع with a diacritic on letter e. (example: digraph gh becomes ġ, kh becomes ḳ, and emphatic d becomes ḍ). this is an alternative one for Amazigh Latin set, can be oractical, but with lots of diacritics.
+* **Arabic latin** is the standard forms used in academia to transliterate Arabic phonetically. It also has more diacritics than Amazigh latin as well as problematic ع and ء symbols which are not standalone letters.
+
+
 ---
 
 # A Latin Orthography for Moroccan Arabic (Darija)
