@@ -22,7 +22,7 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 |---|---|---|---|---|---|---|
 | a | ⴰ | أ/ا/ءا | a | a | a | a |
 | b | ⴱ | ب | b | b | b | b |
-| c | ⵛ | ش | ch | x | ċ | š |
+| c | ⵛ | ش | ch | x | ċ/c | š |
 | d | ⴷ | د | d | d | d | d |
 | ḍ | ⴹ | ض | d | d | ḍ | ḍ |
 | e | ⴻ |  | e | e | e | e |
@@ -48,12 +48,13 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 | ṭ | ⵟ | ط | t | t | ṭ | ṭ |
 | u | ⵓ | ؤ/و/ءو | o | o | u | u |
 | v | ⵠ | ڤ | v | v | v | v |
+| ɣ | ⵖ | غ | gh | 4 | ġ | ġ |
 | w | ⵡ | و | w | w | w | w |
 | x | ⵅ | خ | kh | 5 | ḳ | ḫ |
 | y | ⵢ | ي | y | y | y | y |
 | z | ⵣ | ز | z | z | z | z |
 | ẓ | ⵥ | ژ | z | z | ẓ | ẓ |
-| ʼ/e/ê | ʼ | ء | ê | ê | ʼ | ˈ |
+| e/ê/ʼ | ʼ | ء | ê | e/2 | e/ê/ʼ | ˈ |
 
 * **Amazigh Latin** relies on Amazigh Latin set, with Hamza added.
 * **Amazigh** is for Amazigh script, Tifiangh, representation. (Not recommended at all for Darija)
