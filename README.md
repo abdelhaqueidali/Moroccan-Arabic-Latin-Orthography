@@ -54,7 +54,7 @@ A Latin Orthography for Moroccan Arabic, A better solution for Arabizi.
 | y | ⵢ | ي | y | y | y | y |
 | z | ⵣ | ز | z | z | z | z |
 | ẓ | ⵥ | ژ | z | z | ẓ | ẓ |
-| e/ê/ʼ | ʼ | ء | ê | e/2 | e/ê/ʼ | ˈ |
+| e/ê/ʼ | ʼ | ء | ê | e/2 | e/ê/ʼ | ʾ |
 
 * **Amazigh Latin** relies on Amazigh Latin set, with Hamza added.
 * **Amazigh** is for Amazigh script, Tifiangh, representation. (Not recommended at all for Darija)
